@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="background-color: orange;">
+
+    <dialog class="addModal">
+        <form class="formadd">
+            <input type="text" name="text">
+            <button type="submit">Add User</button>
+        </form>
+    </dialog>
+
+    <dialog class="editModal">
+        <form class="formedit">
+            <input type="text" name="text">
+            <button type="submit">Edit User</button>
+        </form>
+    </dialog>
+
+    <div class="day"></div>
+
+    <div class="clock"></div>
+
+<div class="contaener">
+    <input type="text"  class="searchInp">
+    <div class="content">
+        <button class="Add">Add</button>
+    </div>
+</div>
+
+    <div class="div">
+        <button class="btn1">Remove Dupticat</button>
+        <button class="btn2">Sort</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>TEXT</th>
+                <th>BUTTON</th>
+            </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
